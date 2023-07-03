@@ -7,7 +7,7 @@ namespace App\Controllers;
  *
  * PHP version 8.2.4
  */
-class Home
+class Home extends \Core\Controller
 {
 
     /**
