@@ -6,8 +6,12 @@
  * PHP version 8.2.4
  */
 
-// Require the controller class
-//require '../App/Controllers/Posts.php';
+/**
+ * Twig
+ */
+// D:\xampp\htdocs\scandiweb\Server\vendor\autoload.php
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+
 
 /**
  * Autoloader
@@ -25,8 +29,6 @@ spl_autoload_register(function ($class) {
 /**
  * Routing
  */
-//require '../Core/Router.php';
-
 $router = new Core\Router();
 
 // Add the routes
