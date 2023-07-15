@@ -7,10 +7,9 @@
  */
 
 /**
- * Twig
+ * Composer
  */
-// D:\xampp\htdocs\scandiweb\Server\vendor\autoload.php
-require_once dirname(__DIR__) . '/vendor/autoload.php';
+require '../vendor/autoload.php';
 
 
 /**
