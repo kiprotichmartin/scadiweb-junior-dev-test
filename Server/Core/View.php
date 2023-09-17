@@ -5,7 +5,7 @@ namespace Core;
 /**
  * View
  *
- * PHP version 8.2.4
+ * PHP version 5.4
  */
 class View
 {
@@ -22,12 +22,13 @@ class View
     {
         extract($args, EXTR_SKIP);
 
-        $file = "../App/Views/$view"; // relative to Core directory
+        $file = "../App/Views/$view";  // relative to Core directory
 
         if (is_readable($file)) {
             require $file;
         } else {
-            echo "$file not found";
+            //echo "$file not found";
+            throw new \Exception("$file not found");
         }
     }
 
