@@ -13,12 +13,6 @@ require '../vendor/autoload.php';
 
 
 /**
- * Twig
- */
-Twig_Autoloader::register();
-
-
-/**
  * Error and Exception handling
  */
 set_error_handler('Core\Error::errorHandler');
