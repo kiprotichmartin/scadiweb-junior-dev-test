@@ -35,3 +35,27 @@ Stack trace: #0 D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Loader\Fil
 #9 D:\xampp\htdocs\scandiweb\Server\public\index.php(34): Core\Router->dispatch('')
 #10 {main}
 Thrown in 'D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Loader\FilesystemLoader.php' on line 227
+[13-Oct-2023 21:14:08 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\scandiweb\Server\public\index.php(34): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\scandiweb\Server\Core\Router.php' on line 130
+[13-Oct-2023 21:14:08 Europe/Berlin] PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "404.html" (looked into: ../App/Views). in D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Loader\FilesystemLoader.php:227
+Stack trace:
+#0 D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('404.html')
+#1 D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Environment.php(264): Twig\Loader\FilesystemLoader->getCacheKey('404.html')
+#2 D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Environment.php(312): Twig\Environment->getTemplateClass('404.html')
+#3 D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Environment.php(280): Twig\Environment->load('404.html')
+#4 D:\xampp\htdocs\scandiweb\Server\Core\View.php(52): Twig\Environment->render('404.html', Array)
+#5 D:\xampp\htdocs\scandiweb\Server\Core\Error.php(70): Core\View::renderTemplate('404.html')
+#6 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#7 {main}
+  thrown in D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Loader\FilesystemLoader.php on line 227
+[13-Oct-2023 21:14:38 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\scandiweb\Server\public\index.php(34): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\scandiweb\Server\Core\Router.php' on line 130
+[13-Oct-2023 21:16:05 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method indexssAction not found in controller App\Controllers\Posts'
+Stack trace: #0 D:\xampp\htdocs\scandiweb\Server\Core\Router.php(121): Core\Controller->__call('indexss', Array)
+#1 D:\xampp\htdocs\scandiweb\Server\public\index.php(34): Core\Router->dispatch('posts/indexss')
+#2 {main}
+Thrown in 'D:\xampp\htdocs\scandiweb\Server\Core\Controller.php' on line 53
