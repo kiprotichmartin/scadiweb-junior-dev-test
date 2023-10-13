@@ -1,0 +1,37 @@
+[13-Oct-2023 20:35:35 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\scandiweb\Server\public\index.php(34): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\scandiweb\Server\Core\Router.php' on line 133
+
+
+[13-Oct-2023 20:35:38 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\scandiweb\Server\public\index.php(34): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\scandiweb\Server\Core\Router.php' on line 133
+
+
+[13-Oct-2023 20:50:39 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\scandiweb\Server\public\index.php(34): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\scandiweb\Server\Core\Router.php' on line 130
+[13-Oct-2023 20:50:40 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\scandiweb\Server\public\index.php(34): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\scandiweb\Server\Core\Router.php' on line 130
+[13-Oct-2023 20:51:01 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 D:\xampp\htdocs\scandiweb\Server\public\index.php(34): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'D:\xampp\htdocs\scandiweb\Server\Core\Router.php' on line 130
+[13-Oct-2023 20:52:00 Europe/Berlin] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/inde.html" (looked into: ../App/Views).'
+Stack trace: #0 D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/inde.html')
+#1 D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Environment.php(264): Twig\Loader\FilesystemLoader->getCacheKey('Home/inde.html')
+#2 D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Environment.php(312): Twig\Environment->getTemplateClass('Home/inde.html')
+#3 D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Environment.php(280): Twig\Environment->load('Home/inde.html')
+#4 D:\xampp\htdocs\scandiweb\Server\Core\View.php(52): Twig\Environment->render('Home/inde.html', Array)
+#5 D:\xampp\htdocs\scandiweb\Server\App\Controllers\Home.php(49): Core\View::renderTemplate('Home/inde.html', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 D:\xampp\htdocs\scandiweb\Server\Core\Controller.php(48): call_user_func_array(Array, Array)
+#8 D:\xampp\htdocs\scandiweb\Server\Core\Router.php(121): Core\Controller->__call('index', Array)
+#9 D:\xampp\htdocs\scandiweb\Server\public\index.php(34): Core\Router->dispatch('')
+#10 {main}
+Thrown in 'D:\xampp\htdocs\scandiweb\Server\vendor\twig\twig\src\Loader\FilesystemLoader.php' on line 227
